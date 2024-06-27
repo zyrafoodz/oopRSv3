@@ -1,41 +1,36 @@
 #include <iostream>
-#include <fstream>
+#include <fstream> // For file I/O
 #include <string>
 
-class FileReader {
-private:
-    std::string filename;
-
+class TextFileReader {
 public:
-    FileReader(const std::string& filename) : filename(filename) {}
+    TextFileReader(const std::string& filePath) : filePath_(filePath) {}
 
-    bool readAndDisplay() {
-        std::ifstream file(filename);
-        if (!file.is_open()) {
-            std::cerr << "Error opening file: " << filename << std::endl;
-            return false;
+    void ReadAndDisplayFileContents() {
+        std::ifstream inputFile(filePath_);
+        if (!inputFile.is_open()) {
+            std::cerr << "Error opening file: " << filePath_ << std::endl;
+            return;
         }
 
         std::string line;
-        while (std::getline(file, line)) {
+        while (getline(inputFile, line)) {
             std::cout << line << std::endl;
         }
 
-        file.close();
-        return true;
+        inputFile.close();
     }
+
+private:
+    std::string filePath_;
 };
 
 int main() {
-    std::string filename = "your_text_file.txt"; // Replace with the actual file name
-    FileReader reader(filename);
+    std::string filePath = "C:\\Users\\franc\\Downloads\\inventory.txt";
 
-    if (reader.readAndDisplay()) {
-        std::cout << "File read successfully!" << std::endl;
-    }
-    else {
-        std::cerr << "Failed to read file." << std::endl;
-    }
+    TextFileReader reader(filePath);
+    reader.ReadAndDisplayFileContents();
 
     return 0;
 }
+

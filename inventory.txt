@@ -1,0 +1,40 @@
+ID	Name			Quantity	Metric
+1	Lean Pork		1.5		lbs
+2	Pork Fat		0.75		lbs
+3	Duck Legs		0.5		cups
+4	Water			0.75		tspns
+5	Thyme			1.5		tspns
+6	Salt			1.25		tspns
+7	Black Pepper		0.75		tspns
+8	Bay Leaf		1		pcs
+9	Crab Meat		1		lbs
+10	Saltine Crackers	8		pcs
+11	Eggs			1		pcs
+12	Mayonnaise		2		tbsps
+13	Dijon Mustard		1		tspns
+14	Old Bay Seasoning	0.5		tspns
+15	Worcestershire Sauce	0.25		tspns
+16	Vegetable Oil		1		tbsps
+17	Lemon			1		pcs
+18	Tartar Sauce		1		pcs
+19	Mussels			4		lbs
+20	White Wine		0.5		cups
+21	Garlic			1		pcs
+22	Shallots		0.25		cups
+23	Unsalted Butter		4		tbsps
+24	Parsley			2		tbsps
+25	Lemon Juice		0.25		cups
+26	Oysters			2		cups
+27	Cornmeal		1.5		cups
+28	All-Purpose Flour	2		tbsps
+29	Granulated Sugar	1		tspns
+30	Shrimp			1		lbs
+31	Lime Juice		0.5		cups
+32	Tomatoes		2		pcs
+33	Cucumber		0.5		pcs
+34	Red Onion		0.5		pcs
+35	Avocado			0.5		pcs
+36	Serrano Chile		1		pcs
+37	Cilantro		0.5		cups
+38	Olive Oil		7		tbsps
+39	Tortillas		12		pcs
