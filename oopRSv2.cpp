@@ -26,11 +26,19 @@ private:
 };
 
 int main() {
-    std::string filePath = "C:\\Users\\franc\\Downloads\\inventory.txt";
+    // Inventory text file path
+    std::string filePathInventory = "C:\\Users\\franc\\Downloads\\inventory.txt";
 
-    TextFileReader reader(filePath);
-    reader.ReadAndDisplayFileContents();
+    // Display inventory text file
+    TextFileReader inventoryReader(filePathInventory);
+    inventoryReader.ReadAndDisplayFileContents();
+
+    // Recipe text file path
+    std::string filePathRecipes = "C:\\Users\\franc\\Downloads\\recipes.txt";
+
+    // Display recipes text file
+    TextFileReader recipesReader(filePathRecipes);
+    recipesReader.ReadAndDisplayFileContents();
 
     return 0;
 }
-
